@@ -366,3 +366,18 @@ body {
     }
     }
 
+
+
+
+/*  LOGIN BOOTSTRAP */  
+
+.login-fondo {
+    background-image: url(../img/clp-hero-left-d.jpg);
+    background-position: center center;
+    background-size: cover;   
+}
+
+.login-body {
+    background:#121820;
+    background: linear-gradient(to right,#1d2735,#121820, #0d1218);
+}
