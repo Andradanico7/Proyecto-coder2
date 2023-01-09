@@ -381,3 +381,50 @@ body {
     background:#121820;
     background: linear-gradient(to right,#1d2735,#121820, #0d1218);
 }
+
+.barra-login {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+.navbar-nav > li {
+    font-weight: 600;
+}
+
+.container-fluid > a {
+     font-family: 'Rubik Distressed', cursive;;
+     font-size: 25px;
+}
+
+.container-fluid > a > span {
+    color: #E39435;
+}
+
+.navbar {
+    background-color: #121820;
+}
+
+/* CONTACTOS*/
+
+.contac-fondo {
+    background-color: #0f151d;
+}
+
+.contac-1 {
+    margin-top: 90px;
+}
+
+
+/* QUIENES SOMOS */
+
+.quienes-somos {
+    width: 900px;
+    height: 400px;
+    margin: 50px 30px;
+    margin-bottom: 90px;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #12171B;
+    color: #fff;
+}
