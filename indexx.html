@@ -1,146 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./asset/img/icono.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/be6be70364.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./asset/css/stylee.css">
-    <title>UrbanStyle</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styleeee.css">
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>UrbanStyle</title>
 </head>
-<body> 
-    
-    <div class="grid-container">
-        <nav class="navbar">
-            <a href="#">Urban<span>Style</span></a>
-            <ul>
-                <li><a href="indexx.html">Inicio</a></li>
-                <li><a href="asset/pages/productos2.html">Productos</a></li>
-                <li><a href="asset/pages/contactos2.html">Contactos</a></li>
-                <li><a href="asset/pages/quienes-somos2.html">Quienes Somos</a></li>
-                <li><a href="asset/pages/login.html">Login</a></li>
-            </ul>   
+<body>
+      <div class="grilla">
+        <nav class="nav">
+            <div class="nav__container">
+              <img class="nav__logo" src="./img/logo.png" alt="">
+              <label for="menu" class="nav__label" >  
+                  <i class="fa-solid fa-bars"></i>
+              </label>
+              <input type="checkbox" name="" id="menu" class="nav__input" >
+              
+              <div class="nav__menu">
+                <a href="/indexx.html"class="nav__item">Inicio</a>
+                <a href="./pages/productos.html"class="nav__item">Productos</a>
+                <a href="./pages/Contactos.html"class="nav__item">Contactos</a>
+                <a href="./pages/Login.html"class="nav__item">Login</a>
+              </div>
+
+
+            </div>
         </nav>
-        <header class="header">
-            <div class="header-info">
-                <h2 >Diseñada para los amantes <br> del estilo</h2> 
-                <button class="header-btn">VER MÁS</button>
+          <header class="header">  
+            <div class="header__info">
+              <h2 >Diseñada para los amantes <br> del estilo</h2> 
+              <button class="header__btn">VER MÁS</button>
+          </div>      
+          </header>
+
+          <aside class="aside">
+            <div class="aside__intro">
+              <img src="./img/Astronaut In The Unive Banner (1).png" alt="">
             </div>
-        </header>
-        <aside class="aside">
-            <div class="aside-marcas">
-                <table>
-                    <th><img src="./asset/img/Logo-VANS.png" alt=""></th>
-                    <th><img src="./asset/img/volcom-logo.png" alt=""></th>
-                    <th><img src="./asset/img/thenorthFace.png" alt=""></th>
-                    <th><img src="./asset/img/Nike-Logo-PNG-Photo-Image.png" alt=""></th>
-                    <th><img src="./asset/img/santa-cruz-logo-black-and-white.png" alt=""></th>
-                    <th><img src="./asset/img/Logo-DC.png" alt=""></th>
-                </table>
+          </aside>  
+          
+          
+          <main class="main">
+            <div class="main__banner">
+              <img src="./img/skatejpg.jpg" alt="">
+              <div class="main__info">
+                <h2>URBANSTYLE</h2>
+                <p>UrbanStyle comenzo siendo una mera idea entre amigos durante la pandemia del 2020,
+                  nunca se habia imaginado que llegaria tan lejos la idea. 
+                  Hoy en dia tenemos locales por toda la Argentina, 
+                  incluso hacemos envios al exterior. UrbanStyle es el mejor lugar para que 
+                  escuentres lo mejor para tus Outfits.</p>
+              </div>
             </div>
-        </aside>
-        <main class="main">
-            <div class="main-title" >
-                <h3 data-aos="fade-left"
-                data-aos-duration="700">PRODUCTOS RECOMENDADOS</h3>
+          </main>
+          <section class="section">
+            <div class="section__grid">
+              <div><h2>HOMBRE</h2></div>
+              <div><h2>MUJER</h2></div>
+              <div><h2>NIÑOS</h2></div>
+              <div><h2>CLASSIC</h2></div>
+              <div><h2>URBAN</h2></div>
+              <div><h2>ACCESORIOS</h2></div>
+              
+          </section>
+
+          <footer class="footer">
+            <div class="logo__menu">
+                <img class="logo" src="./img/logo.png" alt="Logo">
+                <nav class="footer__menu">
+                    <ul>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Soporte</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="main-products">
-                <div class="main-product" data-aos="fade-up-right"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/buzo.jpg" alt="buzo">
-                    <h4 class="product__title">Buzo Urban </h4>
-                    <p class="product__desc">Buzo Urban oversized I</p>
-                    <button class="product__btn">Ver Producto</button>
+            <div class="icons__copyright">
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-youtube"></i>
+                    <i class="fa fa-instagram"></i>
                 </div>
-                <div class="main-product" data-aos="fade-up-right"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/campera.jpg" alt="buzo">
-                    <h4 class="product__title">Nuptse Jacket The North Face</h4>
-                    <p class="product__desc">Men’s Summit Series Verbier FUTURELIGHT™ Jacket</p>.</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-                <div class="main-product" data-aos="fade-left"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/remera.jpg" alt="buzo">
-                    <h4 class="product__title">Remera DC</h4>
-                    <p class="product__desc">Remera DC Classic men</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-                <div class="main-product" data-aos="fade-left"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/campera2.jpg" alt="buzo">
-                    <h4 class="product__title">Vest The North Face</h4>
-                    <p class="product__desc">Men’s Summit Series Verbier FUTURELIGHT™ Vest</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-                <div class="main-product" data-aos="fade-up-right"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/buzoVans2.jpg" alt="buzo">
-                    <h4 class="product__title">Buzo Vans</h4>
-                    <p class="product__desc">Buzo Full Patched Po II</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-                <div class="main-product" data-aos="fade-up-right"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/buzoVans.jpg" alt="buzo">
-                    <h4 class="product__title">Buzo Vans</h4>
-                    <p class="product__desc">Full black patched overall Po II</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-                <div class="main-product" data-aos="fade-left"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/volcomropa.jpg" alt="buzo">
-                    <h4 class="product__title">Unisex oversized Volcom diver</h4>
-                    <p class="product__desc">Buzo Black Unisex oversized</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-                <div class="main-product" data-aos="fade-left"  data-aos-duration="1500">
-                    <img class="product__img" src ="./asset/img/santaCruz.jpg" alt="buzo">
-                    <h4 class="product__title">Remera Santa Cruz</h4>
-                    <p class="product__desc">Remera long sleeve II</p>
-                    <button class="product__btn">Ver Producto</button>
-                </div>
-            </div>
-           
-        </main>   
-        <section class="section">
-            <div class="section-2">
-                <div class="section-info"  >
-|                     <h2 data-aos="zoom-in-right" data-aos-duration="1000">La vida es muy corta para llevar ropa aburrida</h2>
-                </div>
-                <div class="section-img" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
-                    <img src="./asset/img/pexels-erik-mclean-7500606.jpg" alt="">
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="grupo-1">
-                <div class="box">
-                <figure>
-                    <a href="# ">
-                        <img src="./asset/img/icono.png" alt="">
-                    </a>
-                </figure>
-                </div>
-                <div class="box">
-                    <h2>SOBRE NOSOTROS</h2>
-                    <p>Somos una empresa dedicada al estilo, dejando un mensaje donde la ropa habla mucho de la personalidad de cada uno.</p>
-                </div>
-                <div class="box">
-                    <h2>SÍGUENOS</h2>
-                    <div class="red-social">
-                        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
-                        <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" ></a>
-                        <a href="https://twitter.com/home" class="fa fa-twitter" target="_blank"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="grupo-2">
-                <small>&copy; 2022 <b>UrbanStyle</b> - Todos los Dererchos Reservados</small>
+                <p class="copyright">© 2021 UrbanStyle. All rights reserved.</p>
             </div>
         </footer>
-    </div> 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+
+      </div>
+    
+
+      <script src="https://kit.fontawesome.com/be6be70364.js" crossorigin="anonymous"></script>
 </body>
 </html>
