@@ -1,0 +1,82 @@
+.login__form, html {
+    height: 100%;
+}
+.login__form {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background: #1c2531;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+    .form-box {
+        width: 700px;
+        height: 600px;
+        padding: 40px;
+        background: #0d1218;
+        text-align: center;
+        margin:100px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+
+        input[type="text"],input[type="password"], button[type="submit"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #E39435;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+        }
+        input[type="text"]:focus {
+            width: 280px;
+            border-color: #ffffff;
+        }
+        input[type="password"]:focus{
+            width: 280px;
+            border-color: #ffffff;
+        }
+
+        .loginform_title {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: 'Nunito', sans-serif;
+            
+        }
+        button[type="submit"] {
+            border: 0;
+            background: #E39435;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #E39435;
+            padding: 14px 40px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+            &:hover {
+                background: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
