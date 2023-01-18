@@ -3,7 +3,7 @@
 .nav{
     grid-column: 1/9;
     grid-row: 1/2;
-    background-color:#121820;
+    background-color:$colorprin;
     color: #fff; 
     position: sticky;
     top: 0;
@@ -38,12 +38,12 @@
         color: #fff;
         font-size: 18px;
         font-weight: 600;
-        font-family: 'Nunito', sans-serif;
+        font-family: $fontprim;
         --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
         &:after {
             content: "";
             display: block;
-            background-color: #E39435;
+            background-color: $colorsec;
             width: 90%;
             margin-top: 3px;
             height: 3px;
@@ -75,7 +75,7 @@
             position: fixed;
             top:60px;
             bottom:0;
-            background-color: #E39435;
+            background-color: $colorsec;
             width: 100%;
             left: 0;
             display: flex;
@@ -91,7 +91,7 @@
          .nav__item::after {
             content: "";
             display: block;
-            background-color: #E39435;
+            background-color: $colorsec;
             width: 90%;
             margin-top: 3px;
             height: 3px;

@@ -619,7 +619,7 @@
 .footer .icons__copyright .copyright {
   color: gray;
   font-size: 0.75rem;
-  font-family: "Nunito", sans-serif;
+  font-family: #E39435;
 }
 
 /*MEDIA QUERY*/
@@ -780,7 +780,7 @@
   outline: 0;
 }
 .formulario__total .container .contact-info {
-  background: #0e131a;
+  background: #0d1218;
 }
 .formulario__total .container .contact-info h4 {
   text-align: center;

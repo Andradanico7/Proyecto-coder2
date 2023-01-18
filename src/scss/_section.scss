@@ -23,7 +23,7 @@
 .section__grid > div > h2 {
     color: #fff;
     font-size: 50px;
-    font-family: 'Rubik Distressed', cursive;  
+    font-family: $fontsec;  
 }
 @media (min-width:1200px){
     .section__grid  :hover {

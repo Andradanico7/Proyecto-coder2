@@ -1,8 +1,8 @@
 .formulario__total {
-    background: #1c2531;
+    background: $colorter;
     color: #fff;
     line-height: 1.6;
-    font-family: 'Nunito', sans-serif;
+    font-family: $fontprim;
     padding: 0 1.5em;
 
     .container {
@@ -24,7 +24,7 @@
         }
 
         .contact-form {
-            background: #1c2531;
+            background: $colorter;
             margin-bottom: 170px;
             form {
                 display: grid;
@@ -43,7 +43,7 @@
                     background: none;
                     outline: 0;
                     color: #fff;
-                    border-bottom: 1px solid #E39435;
+                    border-bottom: 1px solid $colorsec;
                 }
                 textarea {
                     width: 100%;
@@ -52,7 +52,7 @@
                     background: none;
                     outline: 0;
                     color: #fff;
-                    border-bottom: 1px solid #E39435;
+                    border-bottom: 1px solid $colorsec;
                 }
                 .block {
                     grid-column: 1 / 3;
@@ -64,7 +64,7 @@
                     background: none;
                     outline: 0;
                     color: #fff;
-                    border-bottom: 1px solid #E39435;
+                    border-bottom: 1px solid $colorsec;
                     background: #E39435;
                     border: 0;
                     text-transform: uppercase;
@@ -87,7 +87,7 @@
 
 
         .contact-info {
-            background: #0e131a;
+            background: $colorcuart;
             h4{
                 text-align: center;
                 margin: 0 0 1rem 0;

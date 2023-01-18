@@ -4,7 +4,7 @@
     background-color: #fff;
     .section__title {
         font-size: 35px;
-        font-family: 'Rubik Distressed', cursive;
+        font-family: $fontsec;
         padding-top: 50px;
         text-align: center;
         padding-bottom: 60px;
@@ -24,7 +24,7 @@
             border-radius: 25px;
             padding: 10px;
             margin-bottom: 10px;
-            font-family: 'Nunito', sans-serif;
+            font-family: $fontprim;
                     .product__img {
                         width: 100%;
                     }

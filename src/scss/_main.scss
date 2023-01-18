@@ -19,11 +19,11 @@
         flex-direction: column;
         gap: 20px;
         & h2 {
-            font-family: 'Rubik Distressed', cursive;
+            font-family: $fontsec;
             font-size: 30px;
         }
         & p {
-            font-family: 'Nunito', sans-serif;
+            font-family: $fontprim;
             color: rgb(110, 110, 110);
             line-height: 1.8;
         }

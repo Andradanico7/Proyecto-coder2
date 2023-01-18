@@ -1,7 +1,7 @@
 
 .footer {
     grid-column: 1/9;
-    background-color:#121820;
+    background-color:$colorprin;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -28,7 +28,7 @@
                         flex-direction: column;
                         gap: 10px;
                                     li a {
-                                        font-family: 'Nunito', sans-serif;  
+                                        font-family: $fontprim;  
                                         color: white;
                                         font-size: 10px;
                                     }
@@ -50,7 +50,7 @@
             cursor: pointer;
                     > i:hover {
                         transform: scale (1.1);
-                        color: #E39435;
+                        color: $colorsec;
                     }
              }
         
@@ -58,7 +58,7 @@
         .copyright {
             color: gray;
             font-size: .75rem;
-            font-family: 'Nunito', sans-serif;  
+            font-family: $colorsec;  
             }
                  
         }   
@@ -83,7 +83,7 @@
                 .footer__menu ul {
                     flex-direction: row;
                                 li a {
-                                    font-family: 'Nunito', sans-serif;  
+                                    font-family: $fontprim;  
                                     color: white;
                                     font-size: 15px;
                                 }
@@ -103,7 +103,7 @@
 @media screen and (min-width:1100px){
     .footer{
         .footer__menu ul li a {
-            font-family: 'Nunito', sans-serif;  
+            font-family: $fontprim;  
             color: white;
             font-size: 20px;
         }

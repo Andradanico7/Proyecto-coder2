@@ -4,8 +4,8 @@
 .login__form {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
-    background: #1c2531;
+    font-family: $fontprim;
+    background: $colorter;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -17,7 +17,7 @@
         width: 700px;
         height: 600px;
         padding: 40px;
-        background: #0d1218;
+        background: $colorcuart;
         text-align: center;
         margin:100px;
         display: flex;
@@ -31,7 +31,7 @@
             display: block;
             margin: 20px auto;
             text-align: center;
-            border: 2px solid #E39435;
+            border: 2px solid $colorsec;
             padding: 14px 10px;
             width: 200px;
             outline: none;
@@ -52,16 +52,16 @@
             color: #fff;
             text-transform: uppercase;
             font-weight: 500;
-            font-family: 'Nunito', sans-serif;
+            font-family: $fontprim;
             
         }
         button[type="submit"] {
             border: 0;
-            background: #E39435;
+            background: $colorsec;
             display: block;
             margin: 20px auto;
             text-align: center;
-            border: 2px solid #E39435;
+            border: 2px solid $colorsec;
             padding: 14px 40px;
             outline: none;
             color: white;
