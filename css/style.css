@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -38,9 +38,6 @@
 .nav .topnav .nav-title span {
   color: #eca247;
 }
-.nav .topnav .nav__label, .nav .topnav .nav__input {
-  display: none;
-}
 .nav .topnav .menu {
   display: flex;
   align-items: center;
@@ -72,6 +69,9 @@
 .nav .topnav .menu li a:hover {
   --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
+.nav .nav__label, .nav .nav__input {
+  display: none;
+}
 
 /*MEDIA QUERY*/
 @media (max-width: 950px) {
@@ -81,6 +81,10 @@
     font-size: 25px;
     color: #fff;
     margin: 20px;
+  }
+  .topnav .nav__input:checked + .menu {
+    -webkit-clip-path: circle(100% at center);
+            clip-path: circle(100% at center);
   }
   .topnav .menu {
     position: fixed;
@@ -100,10 +104,6 @@
     transition: clip-path 1s ease-in-out, -webkit-clip-path 1s ease-in-out;
     overflow-y: auto;
   }
-  .topnav .nav__input:checked + .menu {
-    -webkit-clip-path: circle(100% at center);
-            clip-path: circle(100% at center);
-  }
   .topnav .menu a {
     font-size: 18px;
   }
@@ -120,7 +120,7 @@
     transition: clip-path 0.5s;
     transition: clip-path 0.5s, -webkit-clip-path 0.5s;
   }
-  .topnav .menu a::after :hover {
+  .topnav .menu a:hover {
     --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .nav-title {
