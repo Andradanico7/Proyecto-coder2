@@ -1,0 +1,92 @@
+.registrate {
+    background-color: $colorbanner;
+    margin: 70px 0px;
+    padding: 28px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}   
+
+.registrate__p {
+    font-family: $fontprim;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.registrate__dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $fontprim;
+    font-size: 12px;
+    background-color: $colorprin;
+}
+
+.registrate__dos:hover {
+    background-color: $colorbanner;
+    color: $colorprin;
+    cursor: pointer;
+}
+
+
+@media (min-width:950px){
+
+    
+    .registrate {
+        background-color: $colorbanner;
+        height: 120px;
+        margin: 100px 0px;
+        padding: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }   
+    
+    .registrate__p {
+        font-family: $fontprim;
+        font-size: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .registrate__dos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 235px;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: $fontprim;
+        font-size: 12px;
+        background-color: $colorprin;
+        border: 2px solid $colorprin;
+    }
+    
+    .registrate__dos i {
+        font-size: 18px;
+    }
+
+    
+    .registrate__dos:hover {
+        background-color: $colorbanner;
+        color: $colorprin;
+        cursor: pointer;
+    }
+
+}

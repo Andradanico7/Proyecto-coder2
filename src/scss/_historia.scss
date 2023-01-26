@@ -1,0 +1,119 @@
+.historia {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.historia__info {
+    background-color: $colorprin;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.historia__title {
+    color: $colorsec;
+    font-family: $fontsec;
+    font-weight:100;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.historia__p {
+    color: $colorfont;
+    font-family: $fontprim;
+    margin: 20px;
+    line-height: 30px;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.wave {
+    width: 100%;
+    position:inherit;
+    top: 2px;
+}   
+
+
+
+@media (min-width:800px){
+    
+    .historia__info {
+        background-color: $colorprin;
+        color: #fff;
+        width: 100%;
+        padding: 40px;
+        height: 100%;
+    }
+
+    .historia__title {
+        color: $colorsec;
+        font-family: $fontsec;
+        font-weight:100;
+        text-transform: uppercase;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    .historia__p {
+        color: $colorfont;
+        font-family: $fontprim;
+        margin: 20px;
+        line-height: 30px;
+        max-width: 600px;
+        padding: 10px;
+    }
+
+    .historia__grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:950px){
+    .historia {
+        margin-bottom: 80px;
+        
+    }
+
+
+    .historia__info {
+        background-color: $colorprin;
+        color: #fff;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .historia__title {
+        color: $colorsec;
+        font-family: $fontsec;
+        font-weight:100;
+        text-transform: uppercase;
+        margin-left: 20px;
+        padding: 10px;
+        font-size: 28px;
+    }
+
+    .historia__p {
+        color: $colorfont;
+        font-family: $fontprim;
+        margin: 20px;
+        line-height: 30px;
+        max-width: 600px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+}
