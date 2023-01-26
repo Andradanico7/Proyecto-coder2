@@ -133,7 +133,7 @@
   }
 }
 .header {
-  background-image: url(proyecto-coder2/img/headerfondo.jpg);
+  background-image: url(Proyecto-coder2/img/headerfondo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -856,4 +856,53 @@
     color: #121820;
     cursor: pointer;
   }
+}
+.tituloprod {
+  font-size: 28x;
+  font-family: "Rubik Distressed", cursive;
+  padding-top: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+
+.producto__padre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 50px;
+}
+
+.producto {
+  width: 250px;
+  border: solid 2px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.producto__img {
+  width: 100%;
+}
+
+.producto__title {
+  font-size: 20px;
+  margin: 7px;
+}
+
+.producto__desc {
+  margin: 10px;
+}
+
+.producto__btn {
+  padding: 10px;
+  margin: 7px;
+  border: none;
+  border-radius: 10px;
 }
