@@ -197,7 +197,7 @@
 }
 @media (min-width: 950px) {
   .header {
-    background-image: url(/proyecto-coder2/img/headerfondo.jpg);
+    background-image: url(/img/background-img/headerfondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -401,7 +401,7 @@
 }
 
 .article__grid > div:nth-child(6) {
-  background-image: url(/proyecto-coder2/img/accesorios.jpg);
+  background-image: url(/img/background-img/accesorios.jpg);
 }
 
 @media (min-width: 600px) {
