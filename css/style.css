@@ -133,7 +133,7 @@
   }
 }
 .header {
-  background-image: url(/proyecto-coder2/img/headerfondo.jpg);
+  background-image: url(../img/headerfondo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,7 +170,7 @@
 
 @media (min-width: 600px) {
   .header {
-    background-image: url(/proyecto-coder2/img/headerfondo.jpg);
+    background-image: url(../img/headerfondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +197,7 @@
 }
 @media (min-width: 950px) {
   .header {
-    background-image: url(/img/background-img/headerfondo.jpg);
+    background-image: url(../img/headerfondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,19 +381,19 @@
 }
 
 .article__grid > div:nth-child(1) {
-  background-image: url(/proyecto-coder2/img/hombre.jpg);
+  background-image: url(../img/hombre.jpg);
 }
 
 .article__grid > div:nth-child(2) {
-  background-image: url(/proyecto-coder2/img/mujer.jpg);
+  background-image: url(../img/mujer.jpg);
 }
 
 .article__grid > div:nth-child(3) {
-  background-image: url(/img/niño.jpg);
+  background-image: url(../img/niño.jpg);
 }
 
 .article__grid > div:nth-child(4) {
-  background-image: url(/proyecto-coder2/img/classic.jpg);
+  background-image: url(../img/classic.jpg);
 }
 
 .article__grid > div:nth-child(5) {
