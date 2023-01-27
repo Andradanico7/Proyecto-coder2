@@ -381,15 +381,15 @@
 }
 
 .article__grid > div:nth-child(1) {
-  background-image: url(./img//hombre.jpg);
+  background-image: url(../img/hombre.jpg);
 }
 
 .article__grid > div:nth-child(2) {
-  background-image: url(/img/mujer\ \(1\).jpg);
+  background-image: url(../img/mujer\ \(1\).jpg);
 }
 
 .article__grid > div:nth-child(3) {
-  background-image: url(/img/niño.jpg);
+  background-image: url(../img/niño.jpg);
 }
 
 .article__grid > div:nth-child(4) {
