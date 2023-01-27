@@ -133,7 +133,7 @@
   }
 }
 .header {
-  background-image: url(Proyecto-coder2/img/headerfondo.jpg);
+  background-image: url(/img/headerfondo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -381,7 +381,7 @@
 }
 
 .article__grid > div:nth-child(1) {
-  background-image: url(/img/hombre.jpg);
+  background-image: url(./img//hombre.jpg);
 }
 
 .article__grid > div:nth-child(2) {
