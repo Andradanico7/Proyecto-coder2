@@ -50,6 +50,17 @@
     margin: 7px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
+.producto__btn:hover {
+    background-color: $colorprin;
+    color: #fff;
+    border: 1px solid #fff;
+}
 
+.precio span {
+    color: $colorprin;
+    font-weight: 600;
+
+}
