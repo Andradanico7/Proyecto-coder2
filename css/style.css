@@ -921,6 +921,12 @@
   font-weight: 600;
 }
 
+@media (max-width: 700px) {
+  .tituloprod {
+    font-size: 14px;
+    margin: 7px;
+  }
+}
 .contenedor__form {
   background: #1c2531;
   color: #fff;
@@ -1036,6 +1042,116 @@ ul {
 .contact-info ul,
 .contact-info p {
     text-align: left;
+  }
+}
+.nosotros__body {
+  background-color: #1c2531;
+}
+
+.nosotros {
+  margin: 100px 20px;
+}
+
+.nosotros__info {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.nosotros__title {
+  font-family: "Rubik Glitch", cursive;
+  font-size: 20px;
+  padding: 12px;
+  color: #eca247;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.nosotros__p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  padding: 12px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.nosotros__img {
+  width: 100%;
+}
+
+.nosotros__img img {
+  width: 100%;
+}
+
+@media (min-width: 850px) {
+  .nosotros {
+    margin: 100px;
+  }
+  .nosotros__info {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+  .nosotros__title {
+    font-family: "Rubik Glitch", cursive;
+    font-size: 20px;
+    padding: 12px;
+    color: #eca247;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  .nosotros__p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    padding: 12px;
+    line-height: 30px;
+    color: #fff;
+    max-width: 400px;
+  }
+  .nosotros__img {
+    width: 100%;
+    padding: 20px;
+  }
+  .nosotros__img img {
+    width: 100%;
+  }
+}
+@media (min-width: 950px) {
+  .nosotros {
+    margin: 100px;
+  }
+  .nosotros__info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0px auto;
+    justify-content: center;
+  }
+  .nosotros__title {
+    font-family: "Rubik Glitch", cursive;
+    font-size: 30px;
+    padding: 12px;
+    color: #eca247;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .nosotros__p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    padding: 12px;
+    line-height: 30px;
+    color: #fff;
+    max-width: 600px;
+  }
+  .nosotros__img {
+    width: 400px;
+    padding: 20px;
+  }
+  .nosotros__img img {
+    width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 .login {

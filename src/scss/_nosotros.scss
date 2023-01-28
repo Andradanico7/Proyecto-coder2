@@ -1,0 +1,130 @@
+.nosotros__body{
+    background-color: $colorter;
+}
+
+.nosotros {
+    margin: 100px 20px;
+}
+
+
+.nosotros__info {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.nosotros__title {
+    font-family: $fontsec;
+    font-size: 20px;
+    padding: 12px;
+    color: $colorsec;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+
+.nosotros__p {
+    font-family: $fontprim;
+    font-size: 15px;
+    padding: 12px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.nosotros__img {
+    width: 100%
+}
+
+.nosotros__img img {
+    width: 100%;
+}
+
+
+@media (min-width:850px){
+    .nosotros {
+        margin: 100px 
+    }
+    
+    
+    .nosotros__info {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+    
+    
+    .nosotros__title {
+        font-family: $fontsec;
+        font-size: 20px;
+        padding: 12px;
+        color: $colorsec;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+    
+    
+    .nosotros__p {
+        font-family: $fontprim;
+        font-size: 15px;
+        padding: 12px;
+        line-height: 30px;
+        color: #fff;
+        max-width: 400px;
+    }
+    
+    .nosotros__img {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .nosotros__img img {
+        width: 100%;
+    }
+}
+
+@media (min-width:950px){
+    .nosotros {
+        margin: 100px;
+    }
+    
+    
+    .nosotros__info {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin: 0px auto;
+        justify-content: center;
+    }
+    
+    
+    .nosotros__title {
+        font-family: $fontsec;
+        font-size: 30px;
+        padding: 12px;
+        color: $colorsec;
+        font-weight: 200;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    
+    .nosotros__p {
+        font-family: $fontprim;
+        font-size: 15px;
+        padding: 12px;
+        line-height: 30px;
+        color: #fff;
+        max-width: 600px;
+    }
+    
+    .nosotros__img {
+        width: 400px;
+        padding: 20px;
+    }
+    
+    .nosotros__img img {
+        width: 400px;
+        object-fit: cover;
+    }
+}
