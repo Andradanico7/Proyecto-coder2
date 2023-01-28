@@ -1,4 +1,78 @@
-.ola {
-    margin-top: 100px;
-    background-color: aqua;
+.login {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: $colorcuart;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden
+    
 }
+
+
+.login_form{
+    margin:  200px 0px;
+    .form-box {
+        width: 500px;
+        height: 400px;
+        padding: 40px;
+        background: #191919;
+        text-align: center;
+        padding: 30px;
+        input[type="text"], input[type="password"]{
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid $colorbanner;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            &:focus {
+                width: 280px;
+                border-color: #fff;
+            }
+            
+        
+        }
+        button[type="submit"] {
+            border: 0;
+            width: 300px;
+            background: $colorsec;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid $colorsec;
+            padding: 14px 40px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+            &:hover {
+                background: none;
+            }
+        }
+        
+    }
+    .login-title {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-family: $fontprim;
+        margin: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
