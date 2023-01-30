@@ -1,0 +1,9 @@
+@mixin producto__btn($background,$color){
+    background-color: $background;
+    padding: 10px;
+    margin: 7px;
+    border: none;
+    border-radius: 12px;
+    color: $color;
+    cursor: pointer;
+}

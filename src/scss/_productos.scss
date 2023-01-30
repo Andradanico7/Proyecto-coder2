@@ -8,6 +8,9 @@
     padding-bottom: 60px;
 }
 
+
+
+
 .producto__padre {
     display: flex;
     flex-wrap: wrap;
@@ -16,15 +19,7 @@
     justify-content: center;
     margin: 30px 50px;
     .producto {
-        width: 250px;
-        border: solid 2px;
-        border-radius: 25px;
-        padding: 10px;
-        margin-bottom: 10px;
-        font-family: 'Nunito', sans-serif;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+       @extend %producto;
             .producto__img {
                 width: 100%;
                 height: 230px;    
@@ -39,15 +34,11 @@
            
             .precio {
                 .producto__btn {
-                    padding: 10px;
-                    margin: 7px;
-                    border: none;
-                    border-radius: 10px;
-                    cursor: pointer;
-                    &:hover {
-                        background-color: $colorprin;
-                        color: #fff;
-                        border: 1px solid #fff;
+                   @include producto__btn(#121820,#fff );
+                         &:hover {
+                            background-color: transparent;
+                            color: #121820;
+                            border: 1px solid #121820;
                     }
                 }
                 span {
